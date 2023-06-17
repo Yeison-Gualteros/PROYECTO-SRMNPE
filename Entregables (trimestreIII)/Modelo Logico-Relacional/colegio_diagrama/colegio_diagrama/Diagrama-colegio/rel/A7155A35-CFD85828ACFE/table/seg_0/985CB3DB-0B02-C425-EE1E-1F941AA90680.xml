@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="985CB3DB-0B02-C425-EE1E-1F941AA90680" name="Alumno">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>CE1A26C6-F464-5ECB-049B-CD4E32B4A576</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CalificaionesID" id="E150F9F2-BA0C-D521-0FE9-6CE7C244FD2E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>F823AE78-FEBD-54B1-0654-58407497C80B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3414F85C-6852-A740-6DFF-EB783DD7293F" referredColumn="66018D5E-1AFD-7FCF-2FA0-A3ABC5955509"/>
+</associations>
+</Column>
+<Column name="Nombre" id="D7D5CA59-3B4F-0E48-14B4-5AAB46286136">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>91390C64-2ECB-703D-DE4D-0E0D8A866E8D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso" id="561A0BD0-EDCE-5F48-02A8-8391DC947711">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>3ACA4F65-83BE-DC5A-FABB-6B2E447C9985</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62CF0431-B092-0969-32B3-9BE1CD0A912F" name="Alumno_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>7792291C-420D-7C3C-0170-AD097DC7F07A</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E150F9F2-BA0C-D521-0FE9-6CE7C244FD2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33E9EEA3-1AE1-5DF6-654F-D82D4F387E5B" name="Alumno_Calificaciones_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>2C25C7DD-7892-467E-71B4-124968808DDF</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E150F9F2-BA0C-D521-0FE9-6CE7C244FD2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

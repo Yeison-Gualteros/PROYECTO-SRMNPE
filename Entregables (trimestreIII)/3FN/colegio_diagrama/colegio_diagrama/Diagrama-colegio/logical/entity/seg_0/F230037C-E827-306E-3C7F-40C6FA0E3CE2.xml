@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F230037C-E827-306E-3C7F-40C6FA0E3CE2" name="Cargos">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:24:50 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cargosid" id="7B584584-1C67-D95D-72CE-2AC708ECE6F0">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:25:02 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreCargo" id="031D0F83-6F45-C951-6745-F531511E4500">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:25:17 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="8931C26F-6F11-E2F3-2063-A35D30C7617F">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:25:38 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DocenteId" id="A38A922A-F766-B552-80BB-28885D438AB0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:52:09 UTC</createdTime>
+<generatorID>493A6FA1-8084-EFD5-6DE2-A69966A79BD8</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<referedAttribute>AE241A1E-1AF6-A761-B32D-18B96967CF60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5B5EF3C-97C3-3A8B-C6D5-8A9AED869C08" name="Cargos PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:25:14 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B584584-1C67-D95D-72CE-2AC708ECE6F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

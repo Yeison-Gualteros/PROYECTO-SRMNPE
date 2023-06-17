@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46B56EEA-5EE3-94D8-4020-FF47C09939A5" name="DocenteHorarios">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>CB68788F-870A-D28C-E13F-C30467030029</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HorariosDocenteId" id="99C4A8BD-78FD-D420-DD80-809753ACD664">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>4D4CBB9F-3D01-66B5-7A9A-54EB26255874</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia" id="1F145708-5061-2E27-DAA5-B395443EAF22">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>1FB6907E-26D0-D576-E25A-4F605C853C02</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bloque" id="4C5F032C-3F21-1AED-9DC3-325E75F484F8">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>CD8E2BAB-136F-E7AA-98EA-28421B5AAEFC</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora" id="FD470149-859B-EFF1-C334-F45A3A4C4D35">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>826B2747-A8FE-D705-2E3C-A5C7186EC5C1</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Docente_DocenteId" id="CBD1F319-AB9A-DD19-6E80-61AF29FE1129">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>EC6EF218-923F-CF61-2AEE-E4BD304283CA</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AD4948F-8436-1594-D58B-74404D9432C4" referredColumn="D8FE81FD-C7CD-B08F-E99D-AD65200CF530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5253EAC-E764-0D30-0F5C-4688A63217BF" name="DocenteHorarios_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>AAA70905-2005-92D0-8F1A-1A9290A42B92</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99C4A8BD-78FD-D420-DD80-809753ACD664"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B03606F5-843D-F042-1F83-1FA13950FA85" name="DocenteHorarios_Docente_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>02161D6B-D911-F2AE-2BA9-A5092E84004F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD1F319-AB9A-DD19-6E80-61AF29FE1129"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

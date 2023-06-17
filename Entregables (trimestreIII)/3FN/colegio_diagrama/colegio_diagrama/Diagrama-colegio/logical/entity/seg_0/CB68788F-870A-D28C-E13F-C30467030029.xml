@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB68788F-870A-D28C-E13F-C30467030029" name="DocenteHorarios">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:52:38 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HorariosDocenteId" id="4D4CBB9F-3D01-66B5-7A9A-54EB26255874">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:53:18 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dia" id="1FB6907E-26D0-D576-E25A-4F605C853C02">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:52:47 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bloque" id="CD8E2BAB-136F-E7AA-98EA-28421B5AAEFC">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:53:02 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="826B2747-A8FE-D705-2E3C-A5C7186EC5C1">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:53:08 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DocenteId" id="EC6EF218-923F-CF61-2AEE-E4BD304283CA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:54:23 UTC</createdTime>
+<generatorID>02161D6B-D911-F2AE-2BA9-A5092E84004F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<referedAttribute>AE241A1E-1AF6-A761-B32D-18B96967CF60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAA70905-2005-92D0-8F1A-1A9290A42B92" name="DocenteHorarios PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:54:15 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D4CBB9F-3D01-66B5-7A9A-54EB26255874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

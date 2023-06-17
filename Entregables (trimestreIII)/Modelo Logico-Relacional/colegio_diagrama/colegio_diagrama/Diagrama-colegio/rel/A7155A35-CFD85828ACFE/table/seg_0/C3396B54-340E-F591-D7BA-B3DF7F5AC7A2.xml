@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3396B54-340E-F591-D7BA-B3DF7F5AC7A2" name="Docente">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>AB0F956B-E3C5-F502-B282-8B6E95FE843B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NotasID" id="537C7D66-413C-9E45-701D-95C7976873BA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>7A63D428-AD23-B7A0-0CD3-0E0EA5FA70DC</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DocenteId" id="D8FE81FD-C7CD-B08F-E99D-AD65200CF530">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>AE241A1E-1AF6-A761-B32D-18B96967CF60</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="26490D39-5915-12FF-57A1-754CCA6441AB">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>4534BBAC-B0A1-C42F-13C6-D0FDBDF6CBEA</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38B5A516-9989-913F-D687-2925D357F44A" name="Docente_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>6BB7CF2B-6982-6376-BFB2-F38FBC3D17F1</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8FE81FD-C7CD-B08F-E99D-AD65200CF530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

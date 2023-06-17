@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="355F0279-C631-DFC6-DFF1-E06450EDC35D" name="PlanEstudio">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:17:42 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PlanEstudioid" id="509614B2-F8FA-9BF1-8103-4403B30233BA">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:17:58 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VigenciaInicio" id="A134996C-B019-3D32-DA99-6CCEC7D2AF8A">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:18:18 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VigenciaFinalizacion" id="90A1AE72-4A6E-CA0A-AA48-0C28C2C5529E">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:18:54 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="C192C6F0-0BEE-9EB3-2E2C-8CBFD8048214">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:19:13 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cursoid" id="5ADED043-DE56-5C5F-0B67-32037CDEA176">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:19:33 UTC</createdTime>
+<generatorID>18E5081E-49C5-D04B-C89A-2DB8400C5ED4</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5D7BF548-12F0-1650-B9ED-50F0D47056E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A6F5E87-6BBE-CEE1-EF0E-226132C1A307" name="PlanEstudio PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:18:50 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>509614B2-F8FA-9BF1-8103-4403B30233BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

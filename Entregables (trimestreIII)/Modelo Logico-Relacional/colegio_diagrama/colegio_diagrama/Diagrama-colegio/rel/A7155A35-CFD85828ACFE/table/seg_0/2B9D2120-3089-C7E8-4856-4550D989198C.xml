@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B9D2120-3089-C7E8-4856-4550D989198C" name="CandidatoEstudiante">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:39:07 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Estudianteid" id="710A3236-3FA1-8E66-C15C-883061AD2BA8">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:40:08 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="614F9A91-E3E8-4404-4692-3075FCFD87FF">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:46:04 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="11A5CF49-6BF0-B166-7A9F-EFF1EDAAD775">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:46:40 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="03E6CB03-9139-74F7-8D2C-29A9BEB19FA5">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:47:03 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoPersona" id="98FD2B6F-05C3-8983-8645-314523088B69">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:48:24 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula_Matriculaid" id="E93394AD-B506-4BD4-6EE3-8BFF16235BBE">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>8B972482-E227-E35B-8A75-72673C8ABCC8</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F5D3069-F40B-5508-3FB1-55B445FFEAF2" referredColumn="E37E24E7-1FF1-B333-473E-5F9FE71D3D1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EAF5C1E-7B56-60C2-34FF-6278300F64AC" name="CandidatoEstudiante_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:40:08 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="710A3236-3FA1-8E66-C15C-883061AD2BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49ABC23D-8D3C-6707-012B-AA047FEB1457" name="CandidatoEstudiante_Matricula_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>9BB2CD00-696B-F101-9A16-8532375CB3FA</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E93394AD-B506-4BD4-6EE3-8BFF16235BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

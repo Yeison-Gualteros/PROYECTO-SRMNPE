@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cursos_PlanEstudio" directorySegmentName="seg_0" id="18E5081E-49C5-D04B-C89A-2DB8400C5ED4">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:19:33 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>FB6740C5-433C-642E-A187-8DC1756931D5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Llevar</nameOnSource>
+<nameOnTarget>Poseer</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C0F6C970-900E-27A1-B592-07EF435A8063</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>355F0279-C631-DFC6-DFF1-E06450EDC35D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

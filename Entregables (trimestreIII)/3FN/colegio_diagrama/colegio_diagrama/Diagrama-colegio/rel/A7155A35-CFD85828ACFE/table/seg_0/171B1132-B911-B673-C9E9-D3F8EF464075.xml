@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171B1132-B911-B673-C9E9-D3F8EF464075" name="TelefonosEstudiantes">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>2BDA2F65-50A8-3088-780B-5F808DF7D84F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telefonoid" id="FCC390EC-9FE6-A500-78EE-D0AFE95A542B">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>49FFF530-CAFE-1AF9-A21E-BB38BADEBDB7</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Indicativo" id="65CEC078-AE22-4F70-6E33-28822BA2E9A3">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>D8C30036-5502-B719-CBA5-AC6C8BC9291E</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoTelefono" id="C2942559-4229-5184-ADBA-EAFB48EA7550">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>FAEB627F-939C-F027-202D-73F92488D882</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CandidatoEstudiante_Estudianteid" id="398AAA62-01E0-DA86-8852-405453A84653">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>45774328-CF00-C629-72A3-01E0852785CD</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE749A65-1D9B-8D78-5338-EB0B04C33B7E" referredColumn="710A3236-3FA1-8E66-C15C-883061AD2BA8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10852598-484B-9510-A60A-706E1950C452" name="TelefonosEstudiantes_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>CD3A2740-EE6F-2D53-CEAC-A5CF21BF55C0</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC390EC-9FE6-A500-78EE-D0AFE95A542B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFB7F788-4228-8795-73ED-48FBBBFE40EB" name="TelefonosEstudiantes_CandidatoEstudiante_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>2EFF7DF1-30C9-465D-6C36-1CBB1F8C7D36</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="398AAA62-01E0-DA86-8852-405453A84653"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

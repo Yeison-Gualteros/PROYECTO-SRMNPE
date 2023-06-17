@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empleados_SopotesEmpleadosLaborales" directorySegmentName="seg_0" id="D8E690E9-3AAE-A664-7DB8-92D5F335D091">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:18:43 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<nameOnSource>Presentar</nameOnSource>
+<nameOnTarget>Tener</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51B8C3C9-DA40-14FD-B84B-ABB60618801C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD625B84-5885-5E99-953F-A05C3BAFBF83</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

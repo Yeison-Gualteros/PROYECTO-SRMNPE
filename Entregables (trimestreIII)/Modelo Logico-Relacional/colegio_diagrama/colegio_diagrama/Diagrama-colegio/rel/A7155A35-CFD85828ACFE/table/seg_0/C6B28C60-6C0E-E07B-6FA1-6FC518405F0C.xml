@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6B28C60-6C0E-E07B-6FA1-6FC518405F0C" name="Docente_Calificaciones">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Docente_DocenteId" id="18C0C88E-5F68-D3AF-B0ED-9B91D87EACEB">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD62623-6D62-39E0-7CBD-2C0EC7EE1A77" referredColumn="D8FE81FD-C7CD-B08F-E99D-AD65200CF530"/>
+</associations>
+</Column>
+<Column name="Calificaciones_CalificaionesID" id="5614B861-C1D4-3557-3CE4-B812492BEB78">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1ED8237-3ED5-8EBF-CEC0-AAE8AEAD27C2" referredColumn="66018D5E-1AFD-7FCF-2FA0-A3ABC5955509"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29F7B498-FDB4-4BA0-E109-10AA2C8DF55E" name="Docente_Calificaciones_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C0C88E-5F68-D3AF-B0ED-9B91D87EACEB"/>
+<colUsage columnID="5614B861-C1D4-3557-3CE4-B812492BEB78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DD779DF-5167-7377-40CE-43BDECA92FA9" name="Docente_Calificaciones_Docente_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>977E2038-654B-53E1-AFD3-105E33252E7B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C0C88E-5F68-D3AF-B0ED-9B91D87EACEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1148B7C-5264-899B-39A4-C3F16414BCDF" name="Docente_Calificaciones_Calificaciones_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>977E2038-654B-53E1-AFD3-105E33252E7B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5614B861-C1D4-3557-3CE4-B812492BEB78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

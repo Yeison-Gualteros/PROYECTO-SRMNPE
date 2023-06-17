@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diagrama-colegio" id="5A36DCE4-63A6-A387-C890-BAB136685744" version="3.5">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:33:50 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5A36DCE4-63A6-A387-C890-BAB136685744</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D64F6D8-52A1-73DA-7D3D-4FA9A67EC4DF" containerWithKeyObject="185760B7-F139-90B5-38DC-0693F3C03ADA" localFKIndex="3B8A9BAF-B93F-6777-DC18-746F0C53E12C" name="Cursos_Prematricula_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>AAF7B49D-1C59-68A8-9CA5-39C12CB27F8F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>Prematricula</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>034A069C-BA22-5694-6821-9E948DEA7200</referredTableID>
+<keyObject>B8A336CC-1A91-B87A-D66D-7349AC586F15</keyObject>
+<referredKeyID>B8A336CC-1A91-B87A-D66D-7349AC586F15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Prematriculaid,Cupo_Cupoid,Cupo_RespuestaCupoid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

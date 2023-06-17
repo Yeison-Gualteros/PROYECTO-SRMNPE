@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7FD8CB3-1C36-29E0-CFB8-29B10D582CB2" name="EstudiantesDocumentos">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>F431ECF3-95C2-F092-3F37-6313C177D631</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Documentosid" id="DCD2E603-AA4A-A0DA-C9E4-E1A33A8A7397">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>BE7440B7-F15C-13EB-AF89-5F96A9B3D7CB</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoDocumento" id="0377B234-7AAB-985D-8BE3-BA02B4977DEE">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>F0587CE9-C925-2FCA-5833-474B020AE428</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroDocumento" id="4DB170A9-5ABD-2D06-0C1A-CE151B669184">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>95678281-2B9B-3D53-16ED-10A3D36DEF49</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="39E2CC50-3AE0-75A1-B157-8B750EFAC4CE">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>80540501-CAF9-FEDF-8831-BDCCC3A53C52</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observaciones" id="B80C3D71-7F91-E962-5CDE-B33452CBD51A">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>9BE81E96-6CF8-6EDE-1605-83AB6520437D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estudianteid" id="BAF61F39-14C3-9D43-03B6-F76B1F7CBCC7">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>A3BBDE5B-42E7-B1FF-BA22-6FEE7477A165</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaActualizacion" id="30BE93F4-D3D0-F14C-B2A9-66B085D82F89">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>42406151-39D1-9003-E0AD-32CD942F35C0</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CandidatoEstudiante_Estudianteid" id="0560F3DE-17DC-6BE0-E39A-DA9265EE7364">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>20B64B40-23E2-DD77-A51E-07F329F80CF3</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A02235A-9BD5-C776-6B12-E2F7B9CE9335" referredColumn="710A3236-3FA1-8E66-C15C-883061AD2BA8"/>
+</associations>
+</Column>
+<Column name="TiposDocumentos_TipoDocmentoid" id="45D918DA-E807-58BC-7320-39CF5E1BE094">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>418FA8CD-511D-8739-116E-5EA8FDD2BE58</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA071A6D-C256-5D00-4871-BF209E031FF7" referredColumn="6963316E-D7EC-F123-B449-0CE1FD5E0531"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BEBD804-37D6-70C8-1DC8-F3CD317E49F7" name="EstudiantesDocumentos_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>E9807764-7B0E-29FE-700B-7335429A4123</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCD2E603-AA4A-A0DA-C9E4-E1A33A8A7397"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14A36A94-25B6-08A8-662C-2D376FF4FD22" name="EstudiantesDocumentos_CandidatoEstudiante_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>17023833-B46F-5FAE-1528-3DC31A93F796</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0560F3DE-17DC-6BE0-E39A-DA9265EE7364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF9597A-B5CA-3A50-8D42-94A4B6D0F9EA" name="EstudiantesDocumentos_TiposDocumentos_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>D31E4398-B2C3-8B29-58C1-C6A75103D80D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45D918DA-E807-58BC-7320-39CF5E1BE094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

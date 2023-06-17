@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22393087-1AB2-DD99-C495-331A5964C075" name="CargosEmpleados">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>D52C131C-CF73-932C-5A84-3C6E7F3878BE</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FechaInicio" id="28194F40-0FAE-E347-61DE-8297502ADECF">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>43F076A8-6BD6-859A-34D4-6588A6162F73</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="416DDA6C-F679-26AA-7912-1BA78CEF0890">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>C16EDA0B-5F25-2A8F-DC33-012A5DD40B52</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evaluacion" id="5E9F5081-65F5-1E8F-036C-C12A2088B8EB">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>754E0DDE-FDD7-EE39-2A77-B8756B159A41</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Observaciones" id="DC03C5D6-5987-F101-2F9B-6AAD21B80E39">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>1185816C-020C-9A9B-C0A5-9B275EA0D522</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroContrato" id="81B296C6-FB32-91D9-9FF5-47749D7042D4">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>FBFEAB3C-BB3B-10D4-4D76-4D13878F7106</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargos_Cargosid" id="D90C0484-873A-773B-52E7-98DEC7CC93E8">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>502AF712-A8E3-CAD7-71EC-92455A1C0667</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="233ADC41-6A7F-FA04-3856-E4805C1625EB" referredColumn="6E94358C-4A59-D97E-996B-15F872C0ACB5"/>
+</associations>
+</Column>
+<Column name="Empleados_Empleados_ID" id="3A1E4E09-2523-8F6E-4552-8E2148E318AD">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AA1EC4B-87C0-B6ED-9413-940137DA66E2" referredColumn="E77A0255-E037-6027-00A4-F303C8416435"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCBE3DBB-C49E-FC9B-0D5B-914721A84B0C" name="CargosEmpleados_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>34F549DA-0D89-56C2-BDFA-E31403C1FB6D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28194F40-0FAE-E347-61DE-8297502ADECF"/>
+<colUsage columnID="D90C0484-873A-773B-52E7-98DEC7CC93E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="348923E6-194A-A52E-E46B-8EF80407AFF3" name="CargosEmpleados_Cargos_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>31F12C78-A5E4-3858-F3B5-88D587386F18</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D90C0484-873A-773B-52E7-98DEC7CC93E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DE4D3D7-5E1D-590D-E256-04E8209926E7" name="CargosEmpleados_Empleados_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>052339BE-9178-824C-D6F1-3B36BAA1D040</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1E4E09-2523-8F6E-4552-8E2148E318AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

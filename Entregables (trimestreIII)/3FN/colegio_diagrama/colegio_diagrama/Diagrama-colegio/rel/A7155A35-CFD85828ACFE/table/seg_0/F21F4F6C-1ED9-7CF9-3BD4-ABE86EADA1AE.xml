@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F21F4F6C-1ED9-7CF9-3BD4-ABE86EADA1AE" name="SoportesAcademicosEmpleados">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>8F5F9CDE-9CC2-7142-99A9-9191A23D4F8F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SoporteAcdemicoid" id="EE46C969-ED26-6D12-B977-3CF60ADBEF47">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>F0E224C8-51FB-5932-26F0-A466550F25EC</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NivelAcdemico" id="0AB63FA4-47B6-A78E-7C58-769B6C945573">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>E009D203-4670-28D5-3DAB-41F48BE3ACCB</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modalidad" id="2509DC7E-FB08-B44B-AB3F-F7674C4E74A1">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>CDDC60D9-EBD3-EA5C-237F-C2DE15D7C5CA</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaGraduacion" id="F670C3C4-63E8-EC87-96BD-D57CE583DF2C">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>AAEA8DCD-2966-2BCD-45F7-C05DF3B85357</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TituloObtenido" id="964D74C8-BBC0-7A43-E775-E20C98649078">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>2DB9E25A-49B9-50AD-DC3A-0C14DF14CC2A</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Institucion" id="A17CF8C6-A623-4A73-58D8-EDBEE1F4386C">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>EE2014AF-8E1D-5589-63DA-7F7D88A45434</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_Empleados_ID" id="F76C2CAE-880F-2870-3CAB-E96D92EA53ED">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D87DA7FD-73C3-BF39-E623-F1BB7661710B" referredColumn="E77A0255-E037-6027-00A4-F303C8416435"/>
+</associations>
+</Column>
+<Column name="Empleado" id="0610EB02-486A-E311-8D71-B955BF36999E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>AE633E1E-EB37-115C-C145-86A4D44905DE</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CF6C0A7-1C2A-2570-A9DB-325BCBAA5299" name="SoportesAcademicosEmpleados_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>D3EB1958-EBB6-C27E-29D4-B95A15AB6AF1</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE46C969-ED26-6D12-B977-3CF60ADBEF47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33EFD1AB-8EBD-0227-4FBA-06ABC7AE7825" name="SoportesAcademicosEmpleados_Empleados_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>E166FF52-02DA-4F71-BB0E-5216535483CE</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76C2CAE-880F-2870-3CAB-E96D92EA53ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

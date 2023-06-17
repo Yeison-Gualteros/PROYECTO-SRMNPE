@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cargo_Docente" directorySegmentName="seg_0" id="493A6FA1-8084-EFD5-6DE2-A69966A79BD8">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 15:52:09 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6BB7CF2B-6982-6376-BFB2-F38FBC3D17F1</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Asignar</nameOnSource>
+<nameOnTarget>Tener</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB0F956B-E3C5-F502-B282-8B6E95FE843B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F230037C-E827-306E-3C7F-40C6FA0E3CE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

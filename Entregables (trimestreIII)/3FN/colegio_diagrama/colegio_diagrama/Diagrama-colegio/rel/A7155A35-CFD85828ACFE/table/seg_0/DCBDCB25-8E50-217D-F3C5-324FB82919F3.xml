@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCBDCB25-8E50-217D-F3C5-324FB82919F3" name="TiposDocumentos">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>AF5D741A-DCE4-D717-A6B4-9E8055334BE9</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipoDocmentoid" id="6963316E-D7EC-F123-B449-0CE1FD5E0531">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>842DF2DC-6FF5-387D-828F-188181C6F88F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoDocumento" id="2A1EFC1C-ECB1-95D2-0548-DA6740FD9114">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>217273B6-0082-49F9-E959-11735ACC209D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="FE653405-6F8F-88B6-8A62-2D8F5CC8F6F9">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>58ADC516-5F62-9DCC-11D2-C3B3AC7CDB11</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE185239-1EAD-C5E5-530B-C3503B5870B8" name="TiposDocumentos_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>D9979550-E1BE-8304-84B0-B096A6E28D52</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6963316E-D7EC-F123-B449-0CE1FD5E0531"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

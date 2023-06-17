@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CD4238D-0C80-13ED-53E7-95C7314EB9A8" containerWithKeyObject="C73D2CF5-EF2C-6E11-F300-CFC8E05A5BF6" localFKIndex="DDA79CA2-2231-69C5-37A2-2EC1912B689C" name="Materias_DetallePlanEstudio_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>2C0C6C22-A113-62E2-661A-4C9FA2F0F551</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>DetallePlanEstudio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8037790-6EA6-3D47-0F00-103109B600F4</referredTableID>
+<keyObject>C3FAD895-A83C-41AC-AFCD-CB35A03820DD</keyObject>
+<referredKeyID>C3FAD895-A83C-41AC-AFCD-CB35A03820DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DetallePlanEstudio_ID</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

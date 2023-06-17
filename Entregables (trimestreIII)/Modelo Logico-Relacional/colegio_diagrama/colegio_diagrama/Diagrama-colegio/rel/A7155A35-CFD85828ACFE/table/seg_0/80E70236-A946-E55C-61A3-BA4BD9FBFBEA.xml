@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80E70236-A946-E55C-61A3-BA4BD9FBFBEA" name="Acudiente">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:52:18 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Acudienteid" id="C0A9D4C6-9519-5287-8233-1D6DD19AAB8A">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:52:53 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="11533FCF-E810-9B18-92FD-A75F7D8D6F17">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:53:36 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="97B04F7C-DEDC-F1FC-7DD8-6C9C75444BB4">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:53:52 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroIdentificacion" id="2910990A-4DA4-E646-8F09-6BAEB491135B">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:54:50 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="A5D4592D-CDAC-4096-FE26-E57AC7C04A2F">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:55:12 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7C45696-2C06-8657-5202-036ED35E0B0E" name="Acudiente_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:52:53 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A9D4C6-9519-5287-8233-1D6DD19AAB8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

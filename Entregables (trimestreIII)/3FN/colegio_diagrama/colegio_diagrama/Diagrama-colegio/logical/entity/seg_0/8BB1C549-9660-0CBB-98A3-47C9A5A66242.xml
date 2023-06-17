@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BB1C549-9660-0CBB-98A3-47C9A5A66242" name="Acudiente">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>80E70236-A946-E55C-61A3-BA4BD9FBFBEA</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Acudienteid" id="AF0921A4-0595-B6E2-25BB-387A902C8D3B">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>C0A9D4C6-9519-5287-8233-1D6DD19AAB8A</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="209C5A49-9E7C-E51E-CBC4-BB8C59C03C89">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>11533FCF-E810-9B18-92FD-A75F7D8D6F17</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="C6A21765-0768-54F7-24BE-6CF20AEEC2D2">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>97B04F7C-DEDC-F1FC-7DD8-6C9C75444BB4</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumeroIdentificacion" id="94D0A096-1A33-1750-4ACC-F938B8621889">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>2910990A-4DA4-E646-8F09-6BAEB491135B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="B250E468-61C2-BB2F-841A-385FF5EACFA8">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>A5D4592D-CDAC-4096-FE26-E57AC7C04A2F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BECDBB2-D0F4-DD72-B43D-E0A234567A43" name="Acudiente PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>C7C45696-2C06-8657-5202-036ED35E0B0E</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF0921A4-0595-B6E2-25BB-387A902C8D3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

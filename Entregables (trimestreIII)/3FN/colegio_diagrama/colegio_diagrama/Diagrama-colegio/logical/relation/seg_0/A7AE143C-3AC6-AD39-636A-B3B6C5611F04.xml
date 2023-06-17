@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EdicionCurso_Matricula" directorySegmentName="seg_0" id="A7AE143C-3AC6-AD39-636A-B3B6C5611F04">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 15:06:06 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>256AEBC5-4605-CC9D-59E4-3C539E1B3B4A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Mantener</nameOnSource>
+<nameOnTarget>Registrarse con</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54A1B84C-4747-8542-48D2-438F3629B801</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BEAEE69C-1C9E-833F-4D20-BBC6791DDE5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

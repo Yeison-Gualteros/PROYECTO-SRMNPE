@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA071A6D-C256-5D00-4871-BF209E031FF7" containerWithKeyObject="E7FD8CB3-1C36-29E0-CFB8-29B10D582CB2" localFKIndex="4AF9597A-B5CA-3A50-8D42-94A4B6D0F9EA" name="EstudiantesDocumentos_TiposDocumentos_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>D31E4398-B2C3-8B29-58C1-C6A75103D80D</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>TiposDocumentos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCBDCB25-8E50-217D-F3C5-324FB82919F3</referredTableID>
+<keyObject>AE185239-1EAD-C5E5-530B-C3503B5870B8</keyObject>
+<referredKeyID>AE185239-1EAD-C5E5-530B-C3503B5870B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TipoDocmentoid</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0AA1EC4B-87C0-B6ED-9413-940137DA66E2" containerWithKeyObject="22393087-1AB2-DD99-C495-331A5964C075" localFKIndex="8DE4D3D7-5E1D-590D-E256-04E8209926E7" name="CargosEmpleados_Empleados_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>052339BE-9178-824C-D6F1-3B36BAA1D040</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>Empleados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05051A36-A0B4-0AB7-0F05-89E1E7C34DE8</referredTableID>
+<keyObject>97B9C660-86BD-A49E-3CBC-A6F49535AF91</keyObject>
+<referredKeyID>97B9C660-86BD-A49E-3CBC-A6F49535AF91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Empleados_ID</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

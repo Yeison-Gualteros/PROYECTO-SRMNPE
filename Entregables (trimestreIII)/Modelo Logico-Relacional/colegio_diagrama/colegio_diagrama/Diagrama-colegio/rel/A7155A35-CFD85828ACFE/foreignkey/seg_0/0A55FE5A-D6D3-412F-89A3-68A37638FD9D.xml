@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A55FE5A-D6D3-412F-89A3-68A37638FD9D" containerWithKeyObject="087A5C52-005A-BE4B-ED21-09DF047959EC" localFKIndex="58DDAE47-82AE-FDB0-31DB-F387D5A8BF83" name="Horarios_Materias_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>D57A5E45-685A-0059-FE0E-44939F2D2993</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>Materias</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C73D2CF5-EF2C-6E11-F300-CFC8E05A5BF6</referredTableID>
+<keyObject>3982448A-6B8D-E7A3-A911-6C53E157E9BF</keyObject>
+<referredKeyID>3982448A-6B8D-E7A3-A911-6C53E157E9BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MateriaId</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

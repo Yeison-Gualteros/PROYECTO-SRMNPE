@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Docente_Calificaciones" directorySegmentName="seg_0" id="977E2038-654B-53E1-AFD3-105E33252E7B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:07:19 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<nameOnSource>Registrar</nameOnSource>
+<nameOnTarget>Registrar por</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AB0F956B-E3C5-F502-B282-8B6E95FE843B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDFED739-B436-CDB0-C4AD-2612B682DBE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

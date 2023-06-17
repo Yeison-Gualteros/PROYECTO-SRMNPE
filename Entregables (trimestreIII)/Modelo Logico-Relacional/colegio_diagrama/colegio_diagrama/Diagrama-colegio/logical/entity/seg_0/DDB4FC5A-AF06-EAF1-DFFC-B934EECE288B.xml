@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDB4FC5A-AF06-EAF1-DFFC-B934EECE288B" name="DocumentosCupo">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:55:40 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DocumentoCupoid" id="6D674FC7-009E-C003-A939-AD0FCE301C1C">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:55:48 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreDocumento" id="7E11865A-93BD-2B89-C6D7-15A6AD4A83D0">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:56:42 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Documento" id="D2A2B758-5AE1-5B70-3367-F89864456D8F">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:57:44 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cupoid" id="520E063E-16ED-8A8E-C6A0-B648695C664A">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:58:57 UTC</createdTime>
+<generatorID>FDD94D37-5348-E696-9144-B2C8828E963F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F97DE3B7-AB2E-D53D-65AA-82C63AFC2203</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RespuestaCupoid" id="4CF66D8A-658D-C6F5-05A2-F2C32A78D0FF">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:05:30 UTC</createdTime>
+<generatorID>FDD94D37-5348-E696-9144-B2C8828E963F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B2B7CB8D-E0FE-6AED-1317-61491206163B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA5C8F88-6392-D53D-E836-8E719F500EAD" name="DocumentosCupo PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:56:04 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D674FC7-009E-C003-A939-AD0FCE301C1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

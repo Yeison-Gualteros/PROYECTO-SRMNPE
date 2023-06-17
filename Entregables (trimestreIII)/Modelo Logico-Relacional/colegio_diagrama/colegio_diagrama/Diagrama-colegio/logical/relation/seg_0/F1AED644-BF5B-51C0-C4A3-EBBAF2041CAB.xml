@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AcudienteEstudiante_CandidatoEstudiante_FK" directorySegmentName="seg_0" id="F1AED644-BF5B-51C0-C4A3-EBBAF2041CAB">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:04:08 UTC</createdTime>
+<generatorID>8B3B11B0-9D3A-1D04-3D6A-BE3AE258731F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6919E870-9C2C-2087-59A9-571624C53E13</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Acompañar</nameOnSource>
+<nameOnTarget>Encargarse</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14F30857-27F0-A090-5E5E-0A04C3B13E26</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E91C05E3-EE60-9E1D-C6D8-13F7F7B292B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

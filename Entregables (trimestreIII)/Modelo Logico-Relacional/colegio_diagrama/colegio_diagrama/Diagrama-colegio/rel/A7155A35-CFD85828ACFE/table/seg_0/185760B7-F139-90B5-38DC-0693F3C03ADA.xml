@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="185760B7-F139-90B5-38DC-0693F3C03ADA" name="Cursos">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>C0F6C970-900E-27A1-B592-07EF435A8063</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cursoid" id="D63613BE-4487-10B5-05C0-3B90300EDFC1">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>5D7BF548-12F0-1650-B9ED-50F0D47056E7</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="063D64C4-C80D-0CC3-601D-8D3916C5B164">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>234AFDBB-A48D-F8C7-202A-55560263B5A5</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Abreviatura" id="612046CD-3F5C-3828-C437-D0E2B9212BAE">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>6E47D6E3-1255-726D-02CA-EB7170E35726</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="2354A6CE-0F50-A191-F65B-4BE8CA56D617">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>5655A4D9-3004-7CFF-5568-3C3B1F00CEF8</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prematricula_Prematriculaid" id="B63B0DA3-F52C-D88F-4765-B6F4F8F4C59B">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>E1F23426-10EB-44F5-9D9C-0DC7BD3ACBEB</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D64F6D8-52A1-73DA-7D3D-4FA9A67EC4DF" referredColumn="5B06E8FD-6417-B419-8185-6A10301F3A96"/>
+</associations>
+</Column>
+<Column name="Prematricula_Cupo_Cupoid" id="D1EA71AE-CF47-F73B-9335-11D47156CF43">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>4944BD0E-D1B3-3D51-C47C-F3C266A41CC8</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D64F6D8-52A1-73DA-7D3D-4FA9A67EC4DF" referredColumn="51829FC7-4FB7-05B6-AF8E-5C5F79FD02DE"/>
+</associations>
+</Column>
+<Column name="Prematricula_Cupo_RespuestaCupoid" id="62C55D6E-48E9-FC53-3277-37F8D90C5289">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>231782F8-98DC-7B5D-FD2A-EC096BCC21E7</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D64F6D8-52A1-73DA-7D3D-4FA9A67EC4DF" referredColumn="412A70A9-A198-66D2-87DC-F3C3CAE31CA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58C4B1CB-937D-4C8A-CBBB-2BB0D5BAABF1" name="Cursos_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>FB6740C5-433C-642E-A187-8DC1756931D5</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D63613BE-4487-10B5-05C0-3B90300EDFC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B8A9BAF-B93F-6777-DC18-746F0C53E12C" name="Cursos_Prematricula_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>AAF7B49D-1C59-68A8-9CA5-39C12CB27F8F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B63B0DA3-F52C-D88F-4765-B6F4F8F4C59B"/>
+<colUsage columnID="D1EA71AE-CF47-F73B-9335-11D47156CF43"/>
+<colUsage columnID="62C55D6E-48E9-FC53-3277-37F8D90C5289"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

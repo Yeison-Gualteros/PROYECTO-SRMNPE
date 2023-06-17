@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE749A65-1D9B-8D78-5338-EB0B04C33B7E" containerWithKeyObject="171B1132-B911-B673-C9E9-D3F8EF464075" localFKIndex="CFB7F788-4228-8795-73ED-48FBBBFE40EB" name="TelefonosEstudiantes_CandidatoEstudiante_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:41:35 UTC</createdTime>
+<generatorID>2EFF7DF1-30C9-465D-6C36-1CBB1F8C7D36</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>CandidatoEstudiante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B9D2120-3089-C7E8-4856-4550D989198C</referredTableID>
+<keyObject>0EAF5C1E-7B56-60C2-34FF-6278300F64AC</keyObject>
+<referredKeyID>0EAF5C1E-7B56-60C2-34FF-6278300F64AC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Estudianteid</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

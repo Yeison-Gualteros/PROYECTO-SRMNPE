@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DDB1D29-6962-7D7E-DB09-86A91A909525" containerWithKeyObject="06D686E6-01B5-25F0-A4CA-43DB088A47C7" localFKIndex="EB33EC06-CD5C-3725-2ED4-0A0E4CC4DDFD" name="DocumentosCupo_Cupo_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>FDD94D37-5348-E696-9144-B2C8828E963F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<referredTableLongName>Cupo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C00B726-F59C-B2CD-F6EB-41D9BDEC66C8</referredTableID>
+<keyObject>069E0F00-25AC-68C6-DADD-D48150986AA6</keyObject>
+<referredKeyID>069E0F00-25AC-68C6-DADD-D48150986AA6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Cupoid,RespuestaCupo_RespuestaCupoid</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

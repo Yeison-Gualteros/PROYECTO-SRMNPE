@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8B114137-FB8B-7E50-8113-B161F45BEE89" mainViewID="B316804F-AB34-9821-254F-3286214B48B5">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 12:33:51 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

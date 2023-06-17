@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RespuestaCupo_cupo" directorySegmentName="seg_0" id="DE8DD06F-0E43-BC82-0668-6A4A55DB360F">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:05:06 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>E2DEB10C-ED59-7C1E-B0DD-DBE6A3CC552A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01D64EA9-EC88-E94F-7FA0-45C8C2D77C27</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09359938-745B-6EA6-7224-D9076C262813</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

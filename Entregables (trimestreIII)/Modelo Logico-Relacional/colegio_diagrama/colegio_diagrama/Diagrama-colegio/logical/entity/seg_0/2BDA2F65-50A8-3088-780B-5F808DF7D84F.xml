@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BDA2F65-50A8-3088-780B-5F808DF7D84F" name="TelefonosEstudiantes">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:29:57 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Telefonoid" id="49FFF530-CAFE-1AF9-A21E-BB38BADEBDB7">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:30:07 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Indicativo" id="D8C30036-5502-B719-CBA5-AC6C8BC9291E">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:31:42 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoTelefono" id="FAEB627F-939C-F027-202D-73F92488D882">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:33:11 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estudianteid" id="45774328-CF00-C629-72A3-01E0852785CD">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:33:38 UTC</createdTime>
+<generatorID>2EFF7DF1-30C9-465D-6C36-1CBB1F8C7D36</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>576C1CF5-AED5-B323-1BD9-85F64826938E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD3A2740-EE6F-2D53-CEAC-A5CF21BF55C0" name="TelefonosEstudiantes PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 13:31:37 UTC</createdTime>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A7155A35-150F-22C8-F8C0-CFD85828ACFE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49FFF530-CAFE-1AF9-A21E-BB38BADEBDB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

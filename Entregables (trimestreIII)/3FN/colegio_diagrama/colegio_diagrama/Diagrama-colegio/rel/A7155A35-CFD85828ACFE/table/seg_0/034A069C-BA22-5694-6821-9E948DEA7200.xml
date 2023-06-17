@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="034A069C-BA22-5694-6821-9E948DEA7200" name="Prematricula">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>7C960E1E-E8BF-7D2C-AC74-1980EBB480DC</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prematriculaid" id="5B06E8FD-6417-B419-8185-6A10301F3A96">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>AA4CB32E-CAB3-A1FD-AFB4-DB059EAA4A1E</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="5CAD6514-BE2D-8C79-D139-41F033491D7F">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>116BD585-31F1-AB29-33EE-9FFC8B2948D6</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFinalizacion" id="D223C2E3-570F-5A72-F2C4-A9231B17908D">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>1D0064FD-D304-DE04-9018-AA55784FFE06</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cupo_Cupoid" id="51829FC7-4FB7-05B6-AF8E-5C5F79FD02DE">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>D165C1D4-31D5-AC63-492D-CC63D65C12CF</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3197206-262A-7580-A1D7-FF351C09248B" referredColumn="6C6401E6-F6AA-359F-68E1-D71E373C6D49"/>
+</associations>
+</Column>
+<Column name="Cupo_RespuestaCupo_RespuestaCupoid" id="412A70A9-A198-66D2-87DC-F3C3CAE31CA3">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>474AD0CC-D197-4F19-BE4B-75B74A30A4CC</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3197206-262A-7580-A1D7-FF351C09248B" referredColumn="125CE849-14F6-8CA4-C73C-E8BBBC7B53FF"/>
+</associations>
+</Column>
+<Column name="Cursoid" id="A7067DAB-F4D3-B6FC-40C8-7000F3605BF5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-04-12 16:28:57 UTC</createdTime>
+<generatorID>AAA77BB9-F888-6FCD-0798-B73D91ABAFF9</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8A336CC-1A91-B87A-D66D-7349AC586F15" name="Prematricula_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>18833045-86BE-38C0-6443-19ECE5796B53</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B06E8FD-6417-B419-8185-6A10301F3A96"/>
+<colUsage columnID="51829FC7-4FB7-05B6-AF8E-5C5F79FD02DE"/>
+<colUsage columnID="412A70A9-A198-66D2-87DC-F3C3CAE31CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6450C3B-9EFE-EC8A-55E4-29030220713D" name="Prematricula_Cupo_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>8875FC5A-93F3-23A8-49F1-E8B5E2750B2B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51829FC7-4FB7-05B6-AF8E-5C5F79FD02DE"/>
+<colUsage columnID="412A70A9-A198-66D2-87DC-F3C3CAE31CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

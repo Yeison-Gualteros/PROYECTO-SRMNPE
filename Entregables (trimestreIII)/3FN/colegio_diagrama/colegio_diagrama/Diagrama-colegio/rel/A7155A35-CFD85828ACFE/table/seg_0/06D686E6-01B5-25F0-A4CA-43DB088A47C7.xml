@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D686E6-01B5-25F0-A4CA-43DB088A47C7" name="DocumentosCupo">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>DDB4FC5A-AF06-EAF1-DFFC-B934EECE288B</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DocumentoCupoid" id="F3DA9FD1-B222-86AF-287F-CD2051027CDB">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>6D674FC7-009E-C003-A939-AD0FCE301C1C</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreDocumento" id="487A47DF-125C-8BA5-DC47-D247F73892F1">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>7E11865A-93BD-2B89-C6D7-15A6AD4A83D0</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Documento" id="73439A15-5AC0-57E8-3722-1144793173FC">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>D2A2B758-5AE1-5B70-3367-F89864456D8F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cupo_Cupoid" id="DC4A0641-0AA3-20E9-5458-DAFBFF3B6A18">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>520E063E-16ED-8A8E-C6A0-B648695C664A</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DDB1D29-6962-7D7E-DB09-86A91A909525" referredColumn="6C6401E6-F6AA-359F-68E1-D71E373C6D49"/>
+</associations>
+</Column>
+<Column name="Cupo_RespuestaCupo_RespuestaCupoid" id="598834A1-313F-0D1B-8B1D-73418BC2ECD5">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>4CF66D8A-658D-C6F5-05A2-F2C32A78D0FF</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DDB1D29-6962-7D7E-DB09-86A91A909525" referredColumn="125CE849-14F6-8CA4-C73C-E8BBBC7B53FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B67D2B4-C0D5-15C2-5C8B-1AB310E83397" name="DocumentosCupo_PK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>BA5C8F88-6392-D53D-E836-8E719F500EAD</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DA9FD1-B222-86AF-287F-CD2051027CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB33EC06-CD5C-3725-2ED4-0A0E4CC4DDFD" name="DocumentosCupo_Cupo_FK">
+<createdBy>barayan gualteros</createdBy>
+<createdTime>2023-04-12 14:37:46 UTC</createdTime>
+<generatorID>FDD94D37-5348-E696-9144-B2C8828E963F</generatorID>
+<ownerDesignName>Diagrama-colegio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC4A0641-0AA3-20E9-5458-DAFBFF3B6A18"/>
+<colUsage columnID="598834A1-313F-0D1B-8B1D-73418BC2ECD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
