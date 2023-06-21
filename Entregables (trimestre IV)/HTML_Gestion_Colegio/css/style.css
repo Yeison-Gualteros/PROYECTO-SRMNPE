@@ -169,7 +169,11 @@ table form{
 /*----------  Text Styles  ----------*/
 .roboto-medium{
 	font-family: 'roboto_medium_regular';
-	font-size: 20px;
+	font-size: 25px;
+}
+.SRMNPE{
+	font-family: 'roboto_medium_regular';
+	font-size: 25px;
 }
 .roboto-condensed-light{
 	font-family: 'roboto_condensed_light';
@@ -329,11 +333,12 @@ table form{
 	line-height: 45px;
 	text-decoration: none;
 	color: #FFF;
-	font-size: 20px;
+	font-size: 25px;
 	box-sizing: border-box;
 	padding-left: 20px;
 	transition: all .2s ease-in-out;
 }
+
 .nav-lateral-menu ul li a.active{
 	color: #FFF;
 	background-color: var(--color-three);
@@ -451,6 +456,15 @@ table form{
 	color: #333;
 }
 
+.footer-container{
+	text-align: center;
+	padding: 10px 15px;
+}
+footer:focus,
+footer:active{
+	outline: none;
+}
+
 
 /*----------  Breakpoints  ----------*/
 @media (max-width: 767px){
@@ -540,5 +554,43 @@ ul{
 	color: #333333;
 	
 }
+
+footer  {
+	position:fixed;
+	left:0 ;
+	bottom: 0;
+	width: 100%;
+	background-color: #bbbbbb;
+	padding: 15px;
+	text-align:center;
+	color: #000000;
+	margin: 0 auto;
+	border-top: 1px solid #000000;
+	user-select: none;
+	transition: all .2s ease-in-out;
+	
+	
+	
+	margin: 2px;
+	margin-right: 1px;
+	color: rgb(0, 0, 0);
+	border: 1px solid black;
+	border-radius: 3px;
+	user-select: none;
+	transition: all .2s ease-in-out;
+	background-color: #ffffff;
+	
+	
+	
+	
+	
+	
+	
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	transition: all .2s ease-in-out;
+	
+}
+
 
 /*----------  Keyframes  ----------*/
