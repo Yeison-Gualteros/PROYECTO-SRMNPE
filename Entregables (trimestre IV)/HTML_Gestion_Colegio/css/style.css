@@ -561,34 +561,11 @@ footer  {
 	bottom: 0;
 	width: 100%;
 	background-color: #bbbbbb;
-	padding: 15px;
-	text-align:center;
+	padding: 5px;
+	text-align:END;
 	color: #000000;
-	margin: 0 auto;
 	border-top: 1px solid #000000;
-	user-select: none;
-	transition: all .2s ease-in-out;
 	
-	
-	
-	margin: 2px;
-	margin-right: 1px;
-	color: rgb(0, 0, 0);
-	border: 1px solid black;
-	border-radius: 3px;
-	user-select: none;
-	transition: all .2s ease-in-out;
-	background-color: #ffffff;
-	
-	
-	
-	
-	
-	
-	
-	text-transform: uppercase;
-	border-bottom: 1px solid black;
-	transition: all .2s ease-in-out;
 	
 }
 
