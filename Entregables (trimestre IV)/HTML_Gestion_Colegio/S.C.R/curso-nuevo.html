@@ -110,9 +110,9 @@
 								<li>
 									<a href="materia-lista.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista De Materias</a>
 								</li>
-								<li>
+								<!--<li>
 									<a href="materia-buscar.html"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar Materia</a>
-								</li>
+								</li>-->
 							</ul>
 						</li>
 
@@ -173,9 +173,23 @@
             <div class="container-fluid">
             	<div class="container-fluid form-neon">
                     <div class="container-fluid">
-                        <p class="text-center roboto-medium">AGREGAR ESTUDIANTES Y PROFESOR/A</p>
+                        <p class="text-center roboto-medium">CREAR NUEVO CURSO</p>
+                        <div class="col-12 col-md-4">
+                            <div class="form-group">
+                                <label for="cliente_direccion" class="frome bmd-label-floating">DIGITE EL CURSO NUEVO</label>
+                                <input type="text" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ#- ]{1,150}" class="form-control" name="cliente_direccion" id="cliente_direccion" maxlength="150">
+                            </div>
+                        </div>
+                    </div>
+            	</div>
+			</div>
+
+            <div class="container-fluid">
+            	<div class="container-fluid form-neon">
+                    <div class="container-fluid">
+                        <p class="text-center roboto-medium">AGREGAR MATERIAS Y PROFESOR/A</p>
                         <p class="text-center">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCliente"><i class="fas fa-user-friends"></i> &nbsp; Agregar Estudiante</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCliente"><i class="fas fa-pallet"></i> &nbsp; MATERIA</button>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalItem"><i class="fas fa-user-circle"></i> &nbsp; Agregar Profesor/a</button>
                         </p>
                         <div>
@@ -191,17 +205,24 @@
                                 <thead>
                                     <tr class="text-center roboto-medium">
                                         <th>#</th>
-                                        <th>NOMBRES</th>
-                                        <th>T.I/C.C</th>                                    
-                                        <td>ELIMINAR</td>
-                                        
+                                        <th>ID</th>
+                                        <th>CURSO</th>   
+                                        <th>DIRECTOR/A</th> 
+                                        <th>ACTUALIZAR</th>
+                                        <th>ELIMINAR</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr class="text-center" >
                                         <td>1</td>
-                                        <td>NOMBRE DEL ESTUDIANTE</td>
-                                        <td>01234567</td>
+                                        <td>132541</td>
+                                        <td>101</td>
+                                        <td>Nombre del Profesor</td>
+                                        <td>
+											<a href="actualizar-curso.html" class="btn btn-success">
+												  <i class="fas fa-sync-alt"></i>	
+											</a>
+										</td>
                                         <td>
                                             <form action="">
                                                 <button type="button" class="btn btn-warning">
@@ -212,8 +233,14 @@
                                     </tr>
                                     <tr class="text-center" >
                                         <td>1</td>
-                                        <td>NOMBRE DEL ESTUDIANTE</td>
-                                        <td>01234567</td>
+                                        <td>132541</td>
+                                        <td>101</td>
+                                        <td>Nombre del Profesor</td>
+                                        <td>
+											<a href="actualizar-curso.html" class="btn btn-success">
+												  <i class="fas fa-sync-alt"></i>	
+											</a>
+										</td>
                                         <td>
                                             <form action="">
                                                 <button type="button" class="btn btn-warning">
@@ -227,36 +254,7 @@
                         </div>
                     </div>
 					<form action="" autocomplete="off">
-						<fieldset>
-							<legend><i class="far fa-plus-square"></i> &nbsp; Seleccione el curso y grupo</legend>
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-12 col-md-6">
-                                        <div class="form-group">
-                                            <label for="item_estado" class="frome bmd-label-floating">Cusos</label>
-                                            <select class="form-control" name="item_estado" id="item_estado">
-                                                <option value="" selected="" disabled="">Seleccione una Curso</option>
-                                                <option  value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="3">4</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <div class="form-group">
-                                            <label for="item_estado" class="frome bmd-label-floating">Cusos</label>
-                                            <select class="form-control" name="item_estado" id="item_estado">
-                                                <option value="" selected="" disabled="">Seleccione una Grupo</option>
-                                                <option  value="1">A</option>
-                                                <option value="2">B</option>
-                                                <option value="3">C</option>
-                                                
-                                            </select>
-                                        </div>
-                                    </div> 
-							</div>
-						</fieldset>
+						
 						<br><br><br>
 						<p class="text-center" style="margin-top: 40px;">
 							<button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
@@ -273,7 +271,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="ModalCliente">Agregar Estudiante</h5>
+                            <h5 class="modal-title" id="ModalCliente">Agregar Materia</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -294,7 +292,7 @@
                                                 <td>01234567 - Nombre del Estudiante</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-plus"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-pallet"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -302,7 +300,7 @@
                                                 <td>01234567 - Nombre del Estudiante</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-plus"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-pallet"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -310,7 +308,7 @@
                                                 <td>01234567 - Nombre del Estudiante</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-plus"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-pallet"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -318,7 +316,7 @@
                                                 <td>01234567 - Nombre del Estudiante</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-plus"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-pallet"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -361,7 +359,7 @@
                                                 <td>012345678 - Nombre del Profesor/a</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-box-open"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-circle"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -369,7 +367,7 @@
                                                 <td>012345678 - Nombre del Profesor/a</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-box-open"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-circle"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -377,7 +375,7 @@
                                                 <td>012345678 - Nombre del Profesor/a</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-box-open"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-circle"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
@@ -385,7 +383,7 @@
                                                 <td>012345678 - Nombre del Profesor/a</td>
                                                 <td>
                                                     <form action="">
-                                                        <button type="button" class="btn btn-primary"><i class="fas fa-box-open"></i></button>
+                                                        <button type="button" class="btn btn-primary"><i class="fas fa-user-circle"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>
