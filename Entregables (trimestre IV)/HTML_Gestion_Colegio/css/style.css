@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'roboto_condensed_light';
+    font-family: 'roboto_medium_regular';
     src: url('../webfonts/robotocondensed-light-webfont.woff2') format('woff2'),
          url('../webfonts/robotocondensed-light-webfont.woff') format('woff'),
          url('../webfonts/robotocondensed-light-webfont.ttf') format('truetype');
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'roboto_condensed_regular';
+    font-family: 'roboto_medium_regular';
     src: url('../webfonts/robotocondensed-regular-webfont.woff2') format('woff2'),
          url('../webfonts/robotocondensed-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -30,7 +30,7 @@
 }
 
 :root{
-	--color-one: #F5F5F5;
+	--color-one: #ffffff;
 	--color-two: #24292E;
 	--color-three: #000000;
 	/*--color-three: #0366D6;*/
@@ -41,14 +41,21 @@
 	/*--accent-color: #455A64;*/
     --border-color: #D8D8D8;
 }
-
+.logo-img {
+	width: 165px; /* Ancho deseado */
+	height: auto; /* Altura automática para mantener la proporción */
+	margin-bottom: -25px; /* Espacio inferior opcional */
+}
 body,html{
-	font-family: 'roboto_condensed_light';
+	font-family: 'roboto_medium_regular';
 	width: 100vw;
 	height: 100vh;
+
 	background-color: var(--color-one);
 	color: #000000;
 	font-size: 16px;
+	
+	
 }
 
 .full-box{
@@ -215,8 +222,7 @@ table form{
 	color: #7b7b7b;
 	font-size: 1em;
 	color: #999;
-	font-family: 
-	'Quicksand', sans-serif;
+	font-family: 'roboto_medium_regular';
 	border:2px solid rgba(0,0,0,0.2);
     border-radius: 12px;
     position: relative;
@@ -278,14 +284,14 @@ table form{
 /*  Nav Lateral */
 .nav-lateral{
 	width: 300px;
-	position: absolute;
+	position:absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	transition: all .2s ease-in-out;
 	background-image: url('../assets/img/Education.jpg');
-	background-position: center center;
-	background-size: cover;
+	background-position:center center;
+	background-size:cover;
 }
 .nav-lateral-bg{ display: none; }
 .nav-lateral-content{
